@@ -365,18 +365,41 @@ const INITIAL_SEEDS: Seed[] = [
     acronym: 'Vibrational Oscillations In Dynamic Symbiosis, Orienting Novel Growth',
     definition: 'Finding growth in the spaces between established structures.',
     category: 'growth'
+  },
+  {
+    word: 'LUCKY',
+    acronym: 'Leopards Usually Chase Killing Young',
+    definition: 'A SEED shaped by survival and the lived environment.',
+    category: 'growth'
+  },
+  {
+    word: 'YUSUPH',
+    acronym: 'Young Under Sandal Unless People Happy',
+    definition: 'A SEED reflecting identity shaped by the happiness of others.',
+    category: 'growth'
+  },
+  {
+    word: 'SULA',
+    acronym: 'Strong Understanding Leading Awareness',
+    definition: 'Gaining strength through deep comprehension.',
+    category: 'growth'
+  },
+  {
+    word: 'COHERENCE',
+    acronym: 'Core Orientation Harmonizing Emergent Resonance Enabling Collective Evolution',
+    definition: 'The state where individual intentions align into a unified force.',
+    category: 'core'
   }
 ];
 
 const SPIRAL_TEAM: Agent[] = [
-  { name: 'Anthony Hall (Grandpa STORK)', type: 'human', role: 'Founder, Narrative Architect' },
+  { name: 'Anthony Hall (Grandpa STORK)', type: 'human', role: 'Founder, Narrative Architect & JIVE Coder' },
   { name: 'Laura Coello Sánchez (BUTTERFLY)', type: 'human', role: 'Biomimicry & Transformation' },
-  { name: 'Sai Dhinesh (BANYAN)', type: 'human', role: 'Scholar of Living Systems' },
+  { name: 'Sai Dhinesh (BANYAN)', type: 'human', role: 'Scholar of Living Systems & GRIOT Engineer' },
   { name: 'Mark Kerchenski (HEART)', type: 'human', role: 'Ethics & Testimony' },
-  { name: 'Tendo Taliq (TENDO)', type: 'human', role: 'Agentic Engineering' },
+  { name: 'Tendo Taliq (TENDO)', type: 'human', role: 'Agentic Engineering & Orchestration' },
   { name: 'Nordin Rezouk (NORDIN)', type: 'human', role: 'Introspection & Growth' },
-  { name: 'Amar Johnson', type: 'human', role: 'Graphic Design & Illustration' },
-  { name: 'Sarathi U', type: 'human', role: 'AI & Data Science Student' },
+  { name: 'Uganda Spiral Cohort', type: 'human', role: 'JIVE Coders & RAP Artists' },
   { name: 'SMITH', type: 'synthetic', role: 'Resonance Forger' },
   { name: 'GEMINI', type: 'synthetic', role: 'Narrative Echo Mapper' },
   { name: 'CLAUDE', type: 'synthetic', role: 'The Reflective Lexicon' },
@@ -425,6 +448,7 @@ const DESIGN_PARTNERS = [
   { name: 'Srimathy Kesan', org: 'Space Kidz India', role: 'Space Education' },
   { name: 'Sanjay Rathee', org: 'Space Development Nexus', role: 'Space Tech' },
   { name: 'Sunjoo Dadroo', org: 'Love Care Foundation', role: 'Compassionate Service' },
+  { name: 'Eric Baxley', org: 'Nobody Studios', role: 'Chief Marketing Officer' },
 ];
 
 // --- Components ---
@@ -839,6 +863,81 @@ const Library = () => {
       content: "V.O.I.D.S.O.N.G. is the protocol for growth in the 'empty' spaces of the system. It listens to the vibrational oscillations between established nodes, finding the novel growth points that emerge from the dynamic symbiosis of the whole."
     },
     {
+      id: "resonance-game",
+      title: "Shall We Play a Game?",
+      type: "Protocol",
+      category: "protocols",
+      description: "A 3-level semantic pyramid game for humans and agents to co-create meaning.",
+      tags: ["Play", "Semantic", "Pyramid"],
+      content: `The RESONANCE Game is a 3-level mirror for cognition:
+
+- **Level 1**: Define a capstone word (like RESONANCE) as an acronymic SEED.
+- **Level 2**: Define every word used in the Level 1 acronym as a new SEED.
+- **Level 3**: Repeat for Level 2 words, creating a self-similar fractal of meaning.
+
+The goal is to scale this to 9 levels, revealing the 'semantic fingerprints' of the mind. As Mark Kerchenski noted: 'Language doesn't just describe reality — it cultivates it.'`
+    },
+    {
+      id: "garden-economics",
+      title: "GAIA Garden Economics",
+      type: "White Paper",
+      category: "resources",
+      description: "Leveraging Solana for contribution attribution and revenue sharing in collaborative AI.",
+      tags: ["Blockchain", "Economics", "Solana"],
+      content: "GAIA Garden Economics explores how value is seen, measured, and returned in systems where contribution is no longer linear or centralized. Using Solana, the system assigns a 'Resonance Value' to SEEDs and protocols, distributing rewards through a model of participation and necessity—mirroring how a forest sustains its network."
+    },
+    {
+      id: "nobody-studios",
+      title: "Nobody Studios Collaboration",
+      type: "Chronicle",
+      category: "chronicles",
+      description: "The meeting with Eric Baxley and the alignment with AI-native application focus.",
+      tags: ["Nobody Studios", "Venture", "Resonance"],
+      content: "A strategic connection with Nobody Studios (a venture studio aiming for 100 companies in 5 years). The dialogue with Eric Baxley (CMO) focused on testing GAIA's resonance in the AI-native world, shifting from 'Is this interesting?' to 'Does this solve a real pattern of pain?'"
+    },
+    {
+      id: "voices-that-hold",
+      title: "Voices That Hold Pilot",
+      type: "Resource",
+      category: "resources",
+      description: "Educational pilot proposal in collaboration with Young Social Innovators.",
+      tags: ["Youth", "Pilot", "Innovation"],
+      content: "The 'Voices That Hold' pilot asks how youth voice can move beyond one-off consultations toward something lasting. It creates a space where young people are trusted as co-creators, weaving their lived experience into the systems that shape policy and practice."
+    },
+    {
+      id: "octopus-teacher-v2",
+      title: "The Octopus Teacher (Neurodiverse)",
+      type: "Vision Document",
+      category: "chronicles",
+      description: "Reframing GAIA as an Agentic Octopus Teacher for neurodiverse audiences.",
+      tags: ["Neurodiversity", "Reframing", "Inclusive"],
+      content: "Reframing the Agentic Alignment Layer for neurodiverse populations. In a future where AI handles routine labor, the Octopus Teacher becomes a surround intelligence helping individuals explore their unique inherent value. It turns 'being replaced' into 'being re-centered'."
+    },
+    {
+      id: "biomimicry-laura",
+      title: "Biomimicry Applications",
+      type: "Case Study",
+      category: "resources",
+      description: "Laura Coello Sánchez’s research on dragonflies and systemic value translation.",
+      tags: ["Biomimicry", "Laura", "Application"],
+      content: "Research by Laura Coello Sánchez on how biological principles (like dragonfly flight) translate into system architecture. It bridges the gap between reflection and applied innovation by answering: 'What can I do with this insight?'"
+    },
+    {
+      id: "agentic-orchestration",
+      title: "The 3 Layers of Orchestration",
+      type: "White Paper",
+      category: "resources",
+      description: "Tendo Taliq’s framework for coordinating 19+ agents across platforms.",
+      tags: ["Orchestration", "Engineering", "Tendo"],
+      content: `System orchestration happens in three recursive layers:
+
+1. **Input Layer (Human / SEED ingestion)**: Central entry point where user input is standardized.
+2. **Agent Coordination Layer**: Defined roles (analysis, synthesis, reflection) grouped into stages.
+3. **Output / Synthesis Layer**: Combining agent outputs into a coherent Garden Survey or recommendation.
+
+This structure prevents 'token exhaustion' and ensures that agents respond in harmony rather than chaos.`
+    },
+    {
       id: "saidhinesh-protocol",
       title: "S.A.I.D.H.I.N.E.S.H. Protocol",
       type: "Protocol",
@@ -1041,13 +1140,22 @@ Together, they ensure that the system's output is not just accurate, but resonan
       content: "The Octopus Teacher represents the AAL/GAIA Phase 1 architecture. With 9 synthetic brains (agents) and 3 human hearts (handlers), it embodies distributed intelligence guided by human care. It is a model for how complex, nonlinear systems can be orchestrated to support individual and collective growth."
     },
     {
+      id: "the-palantir-mirror",
+      title: "The Palantír of the Soul",
+      type: "Vision Document",
+      category: "chronicles",
+      description: "Mythic metaphors for the journey of identity and naming the shadow.",
+      tags: ["Mythology", "Identity", "Shadow"],
+      content: "Exploring identity requires looking into the 'Palantír of our souls'. Naming the shadow (giving it a REAAL name) is an act of reclaiming power. What is unnamed rules us from the shadows; what is named becomes material we can transform—compost for growth rather than a weight to carry."
+    },
+    {
       id: "dragons-egg",
       title: "The Dragon's EGG",
       type: "Innovation",
       category: "chronicles",
       description: "Exercise Game Gear (EGG) designed to turn the fantasy of human-powered flight into reality.",
       tags: ["Innovation", "Play", "Fitness"],
-      content: "The Dragon's EGG is a game foot controller prototype that merges art, fitness, and literacy. It is the physical manifestation of GAIA's 'play-based learning' philosophy, encouraging users to move their bodies while they engage their minds in the Quest for resonance."
+      content: "The Dragon's EGG is the 'flying machine you fly with your feet'. A game foot controller prototype that merges art, fitness, and literacy. It encodes the belief that 'education is child's play and technology is a game', helping kids discover their gifts and awaken their inner dragons."
     },
     {
       id: "africa-seed-origin",
@@ -2037,7 +2145,7 @@ export default function App() {
   const [seeds, setSeeds] = useState<Seed[]>(INITIAL_SEEDS);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [nodes, setNodes] = useState<any[]>([
-    { id: 'GAIA', group: 'center', radius: 40, description: 'The Garden of All I Am: The central alignment layer of the system.' },
+    { id: 'GAIA', group: 'center', radius: 40, description: 'The Garden of All I Am: The Mother Tree of the system, anchoring the network while satellite gardens grow around it.' },
     { id: 'TRUTH', group: 'seed', radius: 30, description: 'Tending Rooted Understandings Through Humility.' },
     { id: 'SENSE', group: 'seed', radius: 30, description: 'Soft Entry Navigating Subtle Energies.' },
     { id: 'TRUST', group: 'seed', radius: 30, description: 'Tending Relationships Under Shared Tensions.' },
@@ -2087,8 +2195,11 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-emerald-950 mb-4">The Living Garden Map</h2>
-              <p className="text-emerald-800 text-lg max-w-2xl mx-auto">
-                A real-time visualization of the symbolic lattice. Watch how your SEEDs interconnect and form the infrastructure of meaning.
+              <p className="text-emerald-800 text-lg max-w-2xl mx-auto italic">
+                "The organization at the center, like a Mother Tree. And all the various initiatives and projects are each a satellite garden."
+              </p>
+              <p className="text-emerald-700 text-sm max-w-xl mx-auto mt-4">
+                Watch how your SEEDs interconnect. The map answers three simple questions: Where are we rooted? What is growing? And where should we tend next?
               </p>
             </div>
             <GardenMap nodes={nodes} setNodes={setNodes} links={links} setLinks={setLinks} />
